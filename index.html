@@ -4,9 +4,9 @@
 <head>
 
   <meta charset="utf-8">
-  <title>MM Portfolio</title>
-  <meta name="description" content="THOMSOON with no sidebar - Portfolio with grid HTML5 and CSS3 modern simplicity style template. Check my portfolio. Download free now with file Photoshop! ">
-  <meta name="keywords" content="clean, simplicity, theme, html5, sidebar, masonry">
+  <title>MM Portfolio </title>
+  <meta name="description" content="Thomsoon version 2 with classic menu navigation - Portfolio with grid HTML5 and CSS3 modern simplicity style template. Check my portfolio. Download free now with file Photoshop! ">
+  <meta name="keywords" content="amore, simplicity, theme, html5">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta name="author" content="thomsoon.com">
   <link rel="icon" type="image/png" href="img/icon.png" />
@@ -35,15 +35,16 @@
     </div>
 </div>
 
- <div class="opacity-nav">
-<div class="menu-index" id="buttons" style="z-index:999999">
+<div class="opacity-nav">
+
+        <div class="menu-index" id="buttons" style="z-index:999999">
         <i class="fa  fa-close"></i>
         </div>
-        
-      <ul class="menu-fullscreen">
-      <li><a  href="index.html">Home</a></li>
-      <li><a  href="projects.html">Work</a></li>
-      <li><a href="about-us.html">About</a></li>
+
+    <ul class="menu-fullscreen">
+      <li><a class="ajax-link" href="index.html">Home</a></li>
+      <li><a class="ajax-link" href="projects.html">Work</a></li>
+      <li><a class="ajax-link" href="about-us.html">About</a></li>
     </ul>
 
 </div>
@@ -52,18 +53,16 @@
   <!--Header-->
   <header id="fullscreen">
     
-      <div class="logo" id="full" style="display:none;"><a class="ajax-link" href="index.html"></a></div>
+      <div class="logo" id="full" style="display:none;"><a class="ajax-link" href="index.html"><img src="img/logo/m-logo.png"></a></div>
       
-        <div class="menu-index" id="button">
+        <div class="menu-index" style="display:none;" id="button">
         <i class="fa fa-bars"></i>
         </div>
-        
 
   </header>
 
- 
-  <div class="clear"></div>
-  <!--Header-->
+
+<!--Header-->
 <header class="boxed" id="header-white">
 
   <div class="header-margin">
@@ -83,7 +82,14 @@
       
       <li><a class="ajax-link" href="about-us.html">About</a></li>
     </ul>
-  
+    
+    <ul class="social-icon">
+      <div class="social-index">
+      <li><a href="https://www.facebook.com/marika.mkrtichian"><i class="fa fa-facebook"></i></a></li>
+      <li><a href="https://www.behance.net/marika_mk"><i class="fa fa-behance"></i></a></li>
+      <li><a href="https://www.instagram.com/marika_mirren/"><i class="fa fa-instagram"></i></a></li>
+      </div>
+    </ul>
     
   </div>
 
@@ -91,26 +97,26 @@
 
 <div class="clear"></div>
 
-  <!--Content-->
+<!--Content-->
 
- <div class="content" id="ajax-content">
+<div class="content" id="ajax-content">
 
 
       <div class="text-intro" id="site-type">
 
-        <h1>HI THERE! <br></h1>
+        <h1>HI THERE! <br>I'm Marika, a graphic designer and a photographer (in making). Since you are here, feel free to look around!</h1>
         <!--<h1 class="typewrite"><span>Portfolio</span></h1>-->
-        <h1>I'm Marika, a graphic designer and a photographer (in making). I'm still figuring out what I am doing with my life. Since you are here, look around!</h1><br>
+        <p></p><br>
 
       </div>
 
 
-  <!--Portfolio grid-->
+<!--Portfolio grid-->
 
-  <ul class="portfolio-grid">
+<ul class="portfolio-grid" id="portfolio-sidebar">
 
-    
-   <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
+  
+  <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
     <img src="img/portfolio1/1.jpg">
       <a class="ajax-link" href="single.html">  
         <div class="grid-hover">
@@ -190,9 +196,7 @@
         </div>
       </a>      
   </li>  
-
-
-
+  
 <li class="grid-item" data-jkit="[show:delay=3000;speed=500;animation=fade]">
       <img src="img/portfolio2/1.jpg">
         <a class="ajax-link" href="single-20.html">  
@@ -233,33 +237,47 @@
         </a>      
     </li>
     
+
 </ul>
+
 </div>
 
-  
 
+<!--Home Sidebar-->
 
-<div id="ajax-sidebar"></div>
-  <!--Footer-->
+<div id="ajax-sidebar">
 
-  <footer>
+    <div class="home-sidebar"style="background-image:url('img/home-sidebar.jpg')" id="hero">
 
-    <div class="footer-margin">
-      <div class="social-footer">
-        <a href="https://www.facebook.com/marika.mkrtichian"><i class="fa fa-facebook"></i></a>
-     <a href="https://www.behance.net/marika_mk"><i class="fa fa-behance"></i></a>
-      <a href="https://www.instagram.com/marika_mirren/"><i class="fa fa-instagram"></i></a>
+      <div class="parallax-option" data-jkit="[parallax:strength=0.8;axis=both]">
+
+        <div class="parallax parallax1"><img src="img/business-card-2.png"></div>
       
-      </div>     
-      <div class="copyright">© Copyright 2017 Marika Mirren.</div>
-      
+      </div>
 
-    
+      <div class="parallax-option" data-jkit="[parallax:strength=0.3;axis=both]">
+
+        <div class="parallax parallax1"><img src="img/business-card.png"></div>
+      
+      </div>
+
     </div>
 
+</div>
 
-  </footer>
 
+<!--Footer-->
+
+<footer id="footer-box">
+
+  <div class="footer-margin">
+   
+  <div class="copyright" id="footer-left">© Copyright 2017 Marika Mirren.</div>
+  
+  </div>
+
+
+</footer>
 
 
 <!--Scripts-->
@@ -272,16 +290,14 @@
   <script src="js/masonry.pkgd.min.js" type="text/javascript"></script>  
   <script src="js/imagesloaded.pkgd.min.js" type="text/javascript"></script>    
   <script src="js/jquery.jkit.1.2.16.min.js"></script>
- 
   <script src="js/script.js" type="text/javascript"></script>
-  
+
 	<script>
-    $('#button').on('click', function() {
+    $('#button, #buttons').on('click', function() {
       $( ".opacity-nav" ).fadeToggle( "slow", "linear" );
     // Animation complete.
     });
   </script>
-
 
 </body>
 </html>
