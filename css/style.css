@@ -378,22 +378,14 @@ CONTENT
 
 .content .text-intro h1{
   font-size:45px;
-  width:55%;
+  width:60%;
   
   color:#8d8d8d;
   font-weight:800;
   line-height:58px;
 }
 
-.content .text-intro h2{
-  font-size:40px;
-  color:#8d8d8d;
-  margin-top:30px;
-  font-weight:800;
-  line-height:50px;
-  letter-spacing:1px;
-  width:90%;
-}
+
 .content .text-intro p{
   font-size:13px;
   color:#8d8d8d;
